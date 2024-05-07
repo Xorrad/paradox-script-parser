@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "target": "es6",
+    "mapRoot": "./",
+    "outDir": "./dist",
+    "types": ["node", "jest", "ts-jest"],
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", ".vscode"],
+}

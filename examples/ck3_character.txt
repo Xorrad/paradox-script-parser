@@ -1,0 +1,40 @@
+﻿175060 = {
+	name=Kallar # Founder of the Hindu Shahi dynasty
+	dynasty=1043006
+	religion = shaivism
+	culture = turco_hephthalite
+	trait=ambitious
+	821.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		effect = {
+			set_relation_potential_rival = character:163101 #Ya'qub Saffarid
+			add_pressed_claim = title:c_rukhaj #seized by Ya'qub
+			add_pressed_claim = title:c_zamindawar #seized by Ya'qub 
+		}
+	}		
+	895.1.1 = {
+		death = yes
+	}
+}
+
+74723 = {
+	name = "Hasan"
+	dynasty = 12334
+	religion = "ashari"
+	culture = "afghan"
+
+	1285.1.1 = {
+		birth = yes
+	}
+	1312.1.1 = {
+		add_spouse = 74725
+	}
+	1330.1.1 = {
+		name = Bahman
+	}
+	1358.1.1 = {
+		death = yes
+	}
+}
